@@ -13,7 +13,7 @@ Build Lineage 15.1 for i9100 with rINanDO repository
   repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 
 4. Clone my repo:
-  git clone https://github.com/linusdan/local_manifests.git -b lineage15.1 .repo/local_manifests
+  git clone https://github.com/linusdan/local_manifests.git -b lineage-15.1 .repo/local_manifests
 
 5. Sync the repo:
   repo sync --no-tags --no-clone-bundle --force-sync -c
