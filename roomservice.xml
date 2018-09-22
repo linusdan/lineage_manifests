@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com/" />
+
+  <!-- Removals -->
+  <remove-project name="android_bionic" /> 
+  <remove-project name="android_system_core" />    
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_vendor_lineage" /> 
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_native" />      
+  <remove-project name="android_hardware_interfaces" />
+
+
+  <!-- Device -->
+  <project name="rINanDO/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-15.1" />
+  <project name="rINanDO/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-15.1" />
+
+  <!-- Kernel -->
+  <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
+
+  <!-- Vendor -->
+  <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+
+  <!-- Extras -->
+  <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-15.1" />        
+  <project name="rINanDO/android_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-15.1" />     
+  <project name="linusdan/android_system_core" path="system/core" remote="github" revision="lineage-15.1" />
+  <project name="rINanDO/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-15.1" />  
+  <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-15.1" />
+  <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />   
+  <project name="rINanDO/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-15.1" />  
+  <project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-15.1" />       
+        
+</manifest>
