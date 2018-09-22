@@ -2,13 +2,13 @@
 <manifest>
 
   <!-- Removals -->
-  <remove-project name="android_bionic" /> 
-  <remove-project name="android_system_core" />    
-  <remove-project name="android_frameworks_av" />
-  <remove-project name="android_vendor_lineage" /> 
-  <remove-project name="android_frameworks_base" />
-  <remove-project name="android_frameworks_native" />      
-  <remove-project name="android_hardware_interfaces" />
+  <remove-project name="LineageOS/android_bionic" /> 
+  <remove-project name="LineageOS/android_system_core" />    
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_vendor_lineage" /> 
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />      
+  <remove-project name="LineageOS/android_hardware_interfaces" />
 
 
   <!-- Device -->
