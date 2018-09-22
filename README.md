@@ -5,9 +5,9 @@ Build Lineage 15.1 for i9100 with rINanDO repository
 
 
 ```
-1. mkdir -p lineage15.1
+1. mkdir -p lineage-15.1
 
-2. cd lineage15.1
+2. cd lineage-15.1
 
 3. Initialize your local repository using the Lineage trees, use a command
   repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
