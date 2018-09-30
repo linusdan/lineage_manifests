@@ -18,7 +18,12 @@ Build Lineage 15.1 for i9100 with rINanDO's repository
 5. Sync the repo:
   repo sync --no-tags --no-clone-bundle --force-sync -c
 
-6. To build:
+6. Add vendorsetup.sh in device/samsung/i9100:
+ cd device/samsung/i9100
+ wget -c https://raw.githubusercontent.com/linusdan/lineage_manifests/lineage-15.1/vendorsetup.sh
+ cd ../../..
+
+7. To build:
   . build/envsetup.sh
   lunch (choose i9100)
   brunch i9100
