@@ -1,5 +1,5 @@
 # Lineage Manifests
-Build Lineage 16.0 for i9100 with rINanDO's repository (Only for tests)
+Build Lineage 16.0 for i9100 with rINanDO's repository (Beta)
 
 ![lineage logo](https://github.com/linusdan/local_manifests/raw/lineage-16.0/lineage.png)
 
@@ -19,9 +19,7 @@ Build Lineage 16.0 for i9100 with rINanDO's repository (Only for tests)
   repo sync --no-tags --no-clone-bundle --force-sync -c
 
 6. Add vendorsetup.sh in device/samsung/i9100:
- cd device/samsung/i9100
- wget -c https://raw.githubusercontent.com/linusdan/lineage_manifests/lineage-16.0/vendorsetup.sh
- cd ../../..
+ cd device/samsung/i9100 && wget -c https://raw.githubusercontent.com/linusdan/lineage_manifests/lineage-16.0/vendorsetup.sh && cd ../../..
 
 7. To build:
   . build/envsetup.sh
