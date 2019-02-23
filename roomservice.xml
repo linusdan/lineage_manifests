@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-<remote name="gitlab"
-        fetch="https://gitlab.com/" />  
+<manifest> 
   
   <!-- Removals -->
   <remove-project name="LineageOS/android_bionic" /> 
@@ -22,7 +19,7 @@
   <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
 
   <!-- Vendor -->
-  <project name="nopatience/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-15.1" />
+  <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
 
   <!-- Extras -->
   <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-15.1" />        
