@@ -12,7 +12,7 @@
   <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
-  <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+  <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->
   <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />      
