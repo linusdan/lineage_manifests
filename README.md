@@ -5,9 +5,9 @@ Build Lineage 17.0 for i9100 with rINanDO's repository (Alpha)
 
 
 ```
-1. mkdir -p lineage-16.0
+1. mkdir -p lineage-17.0
 
-2. cd lineage-16.0
+2. cd lineage-17.0
 
 3. Initialize your local repository using the Lineage trees, use a command
   repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
