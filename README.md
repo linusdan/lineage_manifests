@@ -1,5 +1,5 @@
 # Lineage Manifests
-Build Lineage 17.x for i9100 with rINanDO's repository (Alpha)
+Build Lineage 17.x for i9100 with rINanDO's repository (Beta)
 
 ![lineage logo](https://github.com/linusdan/local_manifests/raw/lineage-17.x/lineage.png)
 
