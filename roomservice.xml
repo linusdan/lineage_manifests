@@ -3,21 +3,29 @@
 
   <!-- Removals -->
   <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
 
   <!-- Device -->
   <project name="rINanDO/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-17.1" />
   <project name="rINanDO/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-17.1" />
 
   <!-- Kernel -->
-  <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-17.0" />
+  <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-17.1" />
 
   <!-- Vendor -->
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="10" />
 
   <!-- Extras -->
   <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-17.1" />
-  <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+  <project name="rINanDO/android_build_soong" path="build/soong" remote="github" revision="lineage-17.1" />
+  <project name="carbon-i9100/system_libhwbinder" path="system/libhwbinder" remote="github" revision="cr-8.0" />
+  <project name="rINanDO/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-17.1" />
   <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
+  <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+  <project name="rINanDO/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="lineage-17.1" />
         
 </manifest>
