@@ -3,6 +3,7 @@
 
   <!-- Removals -->
   <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="LineageOS/android_build_soong" />
   <remove-project name="LineageOS/android_system_sepolicy" />
@@ -22,6 +23,7 @@
   <!-- Extras -->
   <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-17.1" />
   <project name="rINanDO/android_build_soong" path="build/soong" remote="github" revision="lineage-17.1" />
+  <project name="carbon-i9100/system_libhidl" path="system/libhidl" remote="github" revision="cr-8.0" />
   <project name="carbon-i9100/system_libhwbinder" path="system/libhwbinder" remote="github" revision="cr-8.0" />
   <project name="rINanDO/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-17.1" />
   <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
