@@ -1,7 +1,5 @@
 # Lineage Manifests for i9100 #
 
-![lineage logo](https://github.com/linusdan/local_manifests/raw/lineage-17.x/lineage.png)
-
 ### Sync ###
 
 ```bash
