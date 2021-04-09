@@ -4,13 +4,13 @@
 
 ```bash
 # Create build folder
-$ mkdir -p lineage-17.1 && cd lineage-17.1
+$ mkdir -p lineage-18.1 && cd lineage-18.1
 
 # Initialize local repository
-$ repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+$ repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
 
 # Clone my local repo
-$ git clone https://github.com/linusdan/lineage_manifests.git -b lineage-17.x .repo/local_manifests
+$ git clone https://github.com/linusdan/lineage_manifests.git -b lineage-18.x .repo/local_manifests
 
 # Sync
 $ repo sync -c --force-sync --no-clone-bundle --no-tags
@@ -24,9 +24,6 @@ $ repo sync -c --force-sync --no-clone-bundle --no-tags
 
 # Generate configuration of device
  $ lunch lineage_i9100-userdebug
-
-# Generate ramdisk
- $ mka ramdisk && cout && gunzip -c ramdisk.img > ramdisk.cpio && cd ../../../..
 
 # Build the code
  $ brunch i9100
